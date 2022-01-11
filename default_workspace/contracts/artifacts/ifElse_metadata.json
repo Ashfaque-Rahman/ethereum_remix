@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "exampleIfElse",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Conditiona.sol": "ifElse"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Conditiona.sol": {
+			"keccak256": "0xf1e72c68c76539b44d87e213fb557000cb93aa4c4c3baeaa107f11b203c4c3f7",
+			"urls": [
+				"bzzr://3dcc07332ed94f4c7f16ebaec1466b1bda3cf633d45ad83a47853b8f942b3543"
+			]
+		}
+	},
+	"version": 1
+}
