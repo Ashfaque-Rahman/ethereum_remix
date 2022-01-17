@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"20_2/Activities/01-Ins-Transactions_on_Ethereum_Blockchain/Solved/transactions.sol": "BankAccount"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"20_2/Activities/01-Ins-Transactions_on_Ethereum_Blockchain/Solved/transactions.sol": {
+			"keccak256": "0xf751df4016398ff5e2e265a71f0d57fa7ac645bbeff1785f3ac7175cc7c897ba",
+			"urls": [
+				"bzzr://8dfdeec97e8d704ac690b8f21f90bc5b2c5a9231f868cde493b392dc11f280b6"
+			]
+		}
+	},
+	"version": 1
+}

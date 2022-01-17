@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "sendRemittance",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "accountBalance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newOwner",
+						"type": "address"
+					},
+					{
+						"name": "newAuthorizedRecipient",
+						"type": "address"
+					},
+					{
+						"name": "newAccountStatus",
+						"type": "bool"
+					},
+					{
+						"name": "newAccountBalance",
+						"type": "uint256"
+					},
+					{
+						"name": "newCustomerName",
+						"type": "string"
+					},
+					{
+						"name": "newCustomerLastName",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"20_3/Activities/02-Stu_Sending_Remittances/Unsolved/customer_account.sol": "CustomerAccount"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"20_3/Activities/02-Stu_Sending_Remittances/Unsolved/customer_account.sol": {
+			"keccak256": "0x8c075eee116fd5f409ad77723b4195956ab3d49d1ff602d88d3a89340becb310",
+			"urls": [
+				"bzzr://3e62206af6753304e5413583cb14be176a524b72f75106fc99121c8c2997604c"
+			]
+		}
+	},
+	"version": 1
+}

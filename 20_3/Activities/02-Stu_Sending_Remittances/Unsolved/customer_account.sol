@@ -62,12 +62,13 @@ contract CustomerAccount {
 
     function sendRemittance(uint amount, address payable recipient) public {
         require(recipient == owner || recipient == authorizedRecipient, "The recipient address is not authorized!");
-        recipient.transfer(amount);
-        accountBalance = address(this).balance;
+        uint ethAmount=amount*1000000000000000000;
+        recipient.transfer(ethAmount);
+        accountBalance = address(this).balance*1000000000000000000;
     }
 
     function deposit() public payable {
-        accountBalance = address(this).balance;
+        accountBalance = address(this).balance*1000000000000000000;
     }
 
     function() external payable {}
